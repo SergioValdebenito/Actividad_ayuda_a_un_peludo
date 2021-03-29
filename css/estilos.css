@@ -1,0 +1,39 @@
+*{
+    font-family: sans-serif;
+    margin: 0px;
+}
+.encabezado{
+    background-color: aqua;
+}
+.contenido{
+    background-color: yellow;
+}
+.info_adicional{
+    background-color: orange;
+}
+.footer{
+    background-color: red;
+}
+.imagenes {
+    border-radius: 15px;
+    margin: 15px;
+}
+.imagenes:hover{
+    filter: brightness(0.5);
+    transition: 0.5s;
+}
+.boton{
+    background-color: black;
+    color: white;
+    float: left;
+    padding: 8px;
+    border-radius: 15px;
+    margin: 15px;
+}
+.boton a{
+    text-decoration: none;
+    color: white;
+}
+.boton:hover{
+    background-color: gray;
+}
